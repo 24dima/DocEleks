@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7e51f015-c4d7-4b71-b9f5-3d7ad29aa221" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:35956/ServiceDocEleksDB.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceDocEleksDB1.xsd" MetadataType="Schema" ID="84d677f5-2c12-4ef2-b4da-6ac633d39b03" SourceId="1" SourceUrl="http://localhost:35956/ServiceDocEleksDB.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceDocEleksDB.disco" MetadataType="Disco" ID="5627d969-cd60-44ce-9c43-0ea6bac5c208" SourceId="1" SourceUrl="http://localhost:35956/ServiceDocEleksDB.svc?disco" />
+    <MetadataFile FileName="ServiceDocEleksDB.wsdl" MetadataType="Wsdl" ID="4e00b53a-11d6-4107-9add-20c851072a0c" SourceId="1" SourceUrl="http://localhost:35956/ServiceDocEleksDB.svc?wsdl" />
+    <MetadataFile FileName="ServiceDocEleksDB.xsd" MetadataType="Schema" ID="06a90b87-e15d-441d-ac52-d37b2d46972d" SourceId="1" SourceUrl="http://localhost:35956/ServiceDocEleksDB.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServiceDocEleksDB3.xsd" MetadataType="Schema" ID="eb45bd6e-3549-4206-b984-51926328d1ca" SourceId="1" SourceUrl="http://localhost:35956/ServiceDocEleksDB.svc?xsd=xsd3" />
+    <MetadataFile FileName="ServiceDocEleksDB2.xsd" MetadataType="Schema" ID="6d2694b9-152a-427d-9acb-bdd93f4bf3c2" SourceId="1" SourceUrl="http://localhost:35956/ServiceDocEleksDB.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

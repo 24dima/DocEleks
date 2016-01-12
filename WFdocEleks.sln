@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFdocEleks", "WFdocEleks\WFdocEleks.csproj", "{7706C7BD-EF0F-491C-9DA9-3B0A6DCA5783}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8887CF23-25A8-4BD9-AF02-ECA9DA205879} = {8887CF23-25A8-4BD9-AF02-ECA9DA205879}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocEleksService", "DocEleksService\DocEleksService.csproj", "{8887CF23-25A8-4BD9-AF02-ECA9DA205879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPfDocEleks", "WPfDocEleks\WPfDocEleks.csproj", "{FE0ACD0B-6D6C-4C3D-99F2-2DF3292C6D73}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8887CF23-25A8-4BD9-AF02-ECA9DA205879} = {8887CF23-25A8-4BD9-AF02-ECA9DA205879}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7706C7BD-EF0F-491C-9DA9-3B0A6DCA5783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7706C7BD-EF0F-491C-9DA9-3B0A6DCA5783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7706C7BD-EF0F-491C-9DA9-3B0A6DCA5783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7706C7BD-EF0F-491C-9DA9-3B0A6DCA5783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8887CF23-25A8-4BD9-AF02-ECA9DA205879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8887CF23-25A8-4BD9-AF02-ECA9DA205879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8887CF23-25A8-4BD9-AF02-ECA9DA205879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8887CF23-25A8-4BD9-AF02-ECA9DA205879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE0ACD0B-6D6C-4C3D-99F2-2DF3292C6D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE0ACD0B-6D6C-4C3D-99F2-2DF3292C6D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE0ACD0B-6D6C-4C3D-99F2-2DF3292C6D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE0ACD0B-6D6C-4C3D-99F2-2DF3292C6D73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

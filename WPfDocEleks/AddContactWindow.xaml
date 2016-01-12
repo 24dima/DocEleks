@@ -1,0 +1,20 @@
+﻿<Window x:Class="WPfDocEleks.AddContactWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Додати новий контакт" Height="253.5" Width="287.5">
+    <Grid>
+        <Button x:Name="btnExit" TabIndex="6" Content="Відмінити" HorizontalAlignment="Left" Margin="150,176,0,0" VerticalAlignment="Top" Width="80" Height="30" Click="btnExit_Click"/>
+        <Button x:Name="btnAddContact" TabIndex="5" Content="Додати" HorizontalAlignment="Left" Margin="32,176,0,0" VerticalAlignment="Top" Width="80" Height="30" Click="btnAddContact_Click"/>
+        <Label x:Name="lblName" Content="Ваше ім'я :" HorizontalAlignment="Left" Margin="42,16,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblLastN" Content="Ваше прізвище :" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.48,-0.107"/>
+        <Label Content="По-батькові :" HorizontalAlignment="Left" Margin="26,70,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblNomerTel" Content="Номер тел.:" HorizontalAlignment="Left" Margin="32,98,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblAdress" Content="Адрес" HorizontalAlignment="Left" Margin="62,133,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.145,-2.635"/>
+        <TextBox x:Name="txtLastN" TabIndex="1" HorizontalAlignment="Left" Height="24" Margin="115,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtMiddleN" TabIndex="2" HorizontalAlignment="Left" Height="23" Margin="115,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtPhoneNum" TabIndex="3" HorizontalAlignment="Left" Height="23" Margin="115,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtAdress" TabIndex="4" HorizontalAlignment="Left" Height="23" Margin="115,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtFirsN" TabIndex="0" HorizontalAlignment="Left" Height="23" Margin="115,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
